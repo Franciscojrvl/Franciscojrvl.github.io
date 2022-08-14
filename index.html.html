@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .header {
+    text-align: center;
+    padding: 25px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex: 25%;
+  }
+
+  .column img {
+    padding: 4px;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+
+</style>
+<body>
+  
+
+<div class="header">
+  <h1>Beautiful setup collection's by Pinterest</h1>
+  <p>Resize the browser window to see the responsive effect</p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="./img/1.jpg" alt="you can't see me">
+    <img src="./img/8.jpg" alt="you can't see me">
+    <img src="./img/3.jpg" alt="you can't see me">
+    <img src="./img/9.jpg" alt="you can't see me">
+    <img src="./img/16.jpg" alt="you can't see me">
+  </div>
+
+  <div class="column">
+    <img src="./img/2.jpg" alt="you can't see me">
+    <img src="./img/4.jpg" alt="you can't see me">
+    <img src="./img/7.jpg" alt="you can't see me">
+    <img src="./img/10.jpg" alt="you can't see me">
+    <img src="./img/17.jpg" alt="you can't see me">
+  </div>
+
+  <div class="column">
+    <img src="./img/5.jpg" alt="you can't see me">
+    <img src="./img/6.jpg" alt="you can't see me">
+    <img src="./img/15.jpg" alt="you can't see me">
+    <img src="./img/19.jpg" alt="you can't see me">
+    <img src="./img/18.jpg" alt="you can't see me">
+  </div>
+
+  <div class="column">
+    <img src="./img/11.jpg" alt="you can't see me">
+    <img src="./img/12.jpg" alt="you can't see me">
+    <img src="./img/13.jpg" alt="you can't see me">
+    <img src="./img/14.jpg" alt="you can't see me">
+    <img src="./img/20.jpg" alt="you can't see me">
+  </div>
+</div>
+
+</body>
+</html>
